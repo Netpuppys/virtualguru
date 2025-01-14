@@ -53,12 +53,12 @@ function WhyShouldAttend() {
     <div className="w-[95%] px-3 mx-auto h-full py-8 md:py-[2%]">
       <h2 className="md:text-center  pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
         Why Should You{" "}
-        <stroke className="md:hidden">
+        <span className="md:hidden">
           <br />
-        </stroke>
-        <stroke className="font-[NeueHaasDisplayBold] text-[#FF914D]">
+        </span>
+        <span className="font-[NeueHaasDisplayBold] text-[#FF914D]">
           Attend This Webinar?
-        </stroke>
+        </span>
       </h2>
       <div className="flex flex-wrap justify-center gap-3 w-full">
         {card.map((card, index) => (

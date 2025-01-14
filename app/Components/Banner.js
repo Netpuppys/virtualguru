@@ -59,19 +59,19 @@ function Banner() {
           </h6>
           <h2 className="pt-8 md:py-[4%] px-5 md:px-10 md:max-w-[70%] font-[NeueHaasDisplay400] font-normal">
             Finding jobs is not difficult! Learn a proven{" "}
-            <stroke className="text-[#FF914D]">3 step framework </stroke>
+            <span className="text-[#FF914D]">3 step framework </span>
             and find your
             <br />{" "}
-            <span className="text-[#FF914D] font-[NeueHaasDisplayBold] font-bold">
+            <strong className="text-[#FF914D] font-[NeueHaasDisplayBold] font-bold">
               Dream Job in just 30 days!
-            </span>
+            </strong>
           </h2>
           <div className="hidden md:block w-full h-full px-5 md:px-10">
             <h6 className="pb-5 md:pb-[2%] font-[NeueHaasDisplay400] max-w-[60%] font-normal">
               Learn the most powerful and easiest strategy to crack any job and
               get high paying jobs ! Stay ahead of your competition with ease!
             </h6>
-            <button className="w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] px-20 rounded-full">
+            <button className="w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full">
               Join For Free Now{" "}
               <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53]">
                 <FaArrowRight />
@@ -111,7 +111,7 @@ function Banner() {
               </div>
             </div>
             <div className="w-full flex justify-end items-center gap-3">
-              <button className="buttonSmall w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] px-20 rounded-full">
+              <button className="buttonSmall w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full">
                 Join For Free Now
               </button>
               <button className="bg-[#FF914D] p-2 rounded-full text-white !aspect-square">
@@ -127,7 +127,7 @@ function Banner() {
       </div>
       <div className="md:hidden w-full h-full px-5 md:px-10">
         <div className="w-full pb-5 flex justify-center items-center gap-3">
-          <button className="buttonSmall w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] px-20 rounded-full">
+          <button className="buttonSmall w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full">
             Join For Free Now
           </button>
           <button className="bg-[#FF914D] p-2 rounded-full text-white !aspect-square">
@@ -138,7 +138,7 @@ function Banner() {
           Learn the most powerful and easiest strategy to crack any job and get
           high paying jobs ! Stay ahead of your competition with ease!
         </h6>
-        <button className="w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] px-20 rounded-full">
+        <button className="w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full">
           Join For Free Now{" "}
           <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53]">
             <FaArrowRight />

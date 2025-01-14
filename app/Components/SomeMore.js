@@ -23,7 +23,7 @@ function SomeMore() {
       <h2 className="md:text-center px-3 pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
         And some more …….
       </h2>
-      <div className="flex flex-wrap justify-center w-full md:w-[85%] mx-auto h-full gap-3">
+      <div className="flex flex-wrap justify-center w-[95%] md:w-[85%] mx-auto h-full gap-3">
         {card.map((card, index) => (
           <div
             key={index}

@@ -3,6 +3,13 @@ import Banner from "./Components/Banner";
 import WhyShouldAttend from "./Components/WhyShouldAttend";
 import SuperLoved from "./Components/SuperLoved";
 import SomeMore from "./Components/SomeMore";
+import Category from "./Components/Category";
+import EveryOneAroundYou from "./Components/EveryOneAroundYou";
+import Join from "./Components/Join";
+import PowerfullWebinar from "./Components/PowerfullWebinar";
+import AboutCoach from "./Components/AboutCoach";
+import Brands from "./Components/Brands";
+import FAQ from "./Components/FAQ";
 
 export default function Home() {
   return (
@@ -12,6 +19,13 @@ export default function Home() {
       <WhyShouldAttend />
       <SuperLoved />
       <SomeMore />
+      <Category />
+      <EveryOneAroundYou />
+      <Join />
+      <PowerfullWebinar />
+      <AboutCoach />
+      <Brands />
+      <FAQ />
     </div>
   );
 }
