@@ -2,20 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "NeueHaasDisplayBold";
+  src: url(../public/font/NeueHaasDisplayBold.ttf);
+}
+@font-face {
+  font-family: "NeueHaasDisplay400";
+  src: url(../public/font/NeueHaasDisplayRoman.ttf);
+}
+@font-face {
+  font-family: "TTChocolates";
+  src: url(../public/font/TT\ Chocolates\ Trial\ Light.otf);
+}
+@font-face {
+  font-family: "TTChocolatesMedium";
+  src: url(../public/font/TT\ Chocolates\ Trial\ Medium.otf);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+h6 {
+  font-size: clamp(10px, 1.5vw, 75px);
+}
+h2 {
+  font-size: clamp(10px, 2.2vw, 75px);
+}
+h2 span {
+  font-size: clamp(10px, 2.9vw, 75px);
+}
+button,
+h7 {
+  font-size: clamp(10px, 1.2vw, 75px);
+}
+.buttonSmall {
+  font-size: clamp(10px, 1vw, 75px);
+}
+@media (max-width: 768px) {
+  h6 {
+    font-size: clamp(12px, 5vw, 50px);
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  h2 {
+    font-size: clamp(15px, 6.5vw, 75px);
+  }
+  h2 span {
+    font-size: clamp(20px, 7.4vw, 75px);
+  }
+  button,
+  h7 {
+    font-size: clamp(10px, 4vw, 75px);
+  }
+  .buttonSmall {
+    font-size: clamp(8px, 3.6vw, 75px);
+  }
 }
