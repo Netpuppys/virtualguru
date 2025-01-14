@@ -19,7 +19,7 @@ function SomeMore() {
     },
   ];
   return (
-    <div className="w-[95%] mx-auto h-full pb-8 md:py-[2%]">
+    <div className="w-[95%] relative mx-auto h-full pb-8 md:py-[2%]">
       <h2 className="md:text-center px-3 pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
         And some more …….
       </h2>
@@ -36,6 +36,7 @@ function SomeMore() {
           </div>
         ))}
       </div>
+      <div className="bg-[#FF914D] absolute top-0 right-0 -z-10 bg-opacity-15 w-[25vw] min-w-[350px] aspect-[1.2/1] blur-2xl rounded-full translate-x-1/2 "></div>
     </div>
   );
 }

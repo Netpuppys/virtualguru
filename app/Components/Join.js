@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function Join() {
   return (
-    <div className="w-[95%] mx-auto px-3 h-full pb-8 md:py-[2%]">
+    <div className="w-[95%] mx-auto relative px-3 h-full pb-8 md:py-[2%]">
       <div className="flex flex-wrap rounded-3xl border-2 px-8 md:px-[5%] py-8 md:py-[5%] border-[#FF914D] bg-[#F7E6DC] shadow-[0px_4px_71.8px_0px_rgba(0,0,0,0.25)] justify-center w-full md:w-[85%] mx-auto h-full">
         <h6 className="text-center">
           You couldn’t be more wrong! It’s time to learn those simple, yet
@@ -20,6 +20,7 @@ function Join() {
           </span>
         </button>
       </div>
+      <div className="bg-[#FF914D] absolute top-0 right-0 -z-10 bg-opacity-15 w-[25vw] min-w-[350px] aspect-[1.2/1] blur-2xl rounded-full translate-x-1/2 -translate-y-1/2"></div>
     </div>
   );
 }
