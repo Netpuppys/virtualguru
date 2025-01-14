@@ -1,6 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import {
+  IoIosArrowDown,
+  IoIosArrowForward,
+  IoIosArrowUp,
+} from "react-icons/io";
 
 function FAQ() {
   const questions = [
@@ -36,12 +40,12 @@ function FAQ() {
           Questions
         </span>{" "}
       </h2>
-      <div className="w-full flex flex-col md:w-[60%] gap-3 md:gap-6 mx-auto">
+      <div className="w-full flex flex-col items-end md:w-[60%] gap-3 mx-auto">
         {questions.map((item, index) => (
-          <div key={index}>
+          <div key={index} className="w-full">
             <div
               onClick={() => toggleExpand(index)}
-              className={`flex border-2 py-4 rounded-3xl md:rounded-[34px] items-center justify-between transition-all duration-300 ${
+              className={`w-full flex border-2 py-4 rounded-3xl md:rounded-[34px] items-center justify-between transition-all duration-300 ${
                 expanded === index
                   ? "shadow-[0px_3.63px_24.686px_3.63px_rgba(255,145,77,0.63)] border-[#FF914D]"
                   : "border-[#323A53]"
@@ -67,7 +71,7 @@ function FAQ() {
               </div>
             </div>
             <div
-              className={`w-full px-4 md:px-10 pt-4 overflow-hidden transition-all duration-300 ${
+              className={`w-full px-4 md:px-10 pt-4 overflow-hidden transition-all duration-500 ease-in ${
                 expanded === index
                   ? "max-h-full opacity-100"
                   : "max-h-0 opacity-0"
@@ -77,6 +81,9 @@ function FAQ() {
             </div>
           </div>
         ))}
+        <button className="flex items-center justify-center gap-2 text-[#FF914D] font-[TTChocolatesMedium] font-black">
+          Read All FAQs <IoIosArrowForward />
+        </button>
       </div>
     </div>
   );
