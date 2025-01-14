@@ -50,15 +50,15 @@ function WhyShouldAttend() {
     },
   ];
   return (
-    <div className="w-[95%] mx-auto h-full py-8 md:py-[2%]">
-      <h2 className="md:text-center px-3 pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
+    <div className="w-[95%] px-3 mx-auto h-full py-8 md:py-[2%]">
+      <h2 className="md:text-center  pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
         Why Should You{" "}
-        <color className="md:hidden">
+        <stroke className="md:hidden">
           <br />
-        </color>
-        <color className="font-[NeueHaasDisplayBold] text-[#FF914D]">
+        </stroke>
+        <stroke className="font-[NeueHaasDisplayBold] text-[#FF914D]">
           Attend This Webinar?
-        </color>
+        </stroke>
       </h2>
       <div className="flex flex-wrap justify-center gap-3 w-full">
         {card.map((card, index) => (

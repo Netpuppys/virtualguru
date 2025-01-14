@@ -58,8 +58,8 @@ function Banner() {
             Tired of applying for jobs and not getting any responses?
           </h6>
           <h2 className="pt-8 md:py-[4%] px-5 md:px-10 md:max-w-[70%] font-[NeueHaasDisplay400] font-normal">
-            Finding jobs is not difficult! Learn a proven
-            <color className="text-[#FF914D]">3 step framework </color>
+            Finding jobs is not difficult! Learn a proven{" "}
+            <stroke className="text-[#FF914D]">3 step framework </stroke>
             and find your
             <br />{" "}
             <span className="text-[#FF914D] font-[NeueHaasDisplayBold] font-bold">
