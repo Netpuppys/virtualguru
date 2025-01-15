@@ -19,6 +19,7 @@ function AboutCoach() {
   ];
   return (
     <div className="w-full h-full relative">
+      <div className="bg-[#FF914D] absolute top-0 left-0 -z-10 bg-opacity-25 w-[25vw] min-w-[350px] aspect-[1.2/1] blur-2xl rounded-full -translate-x-1/2 -translate-y-1/2"></div>
       <div className="w-[calc(100%-30px)] md:w-[calc(100%-50px)] mx-auto relative rounded-3xl my-[15px] md:my-[25px] h-fit shadow-[0px_4px_71.8px_0px_rgba(0,0,0,0.25] min-h-[600px] bg-[#CB723A] bg-opacity-10 flex flex-col justify-center items-center">
         <div className="bg-[#FF914D] w-[70%] h-[18px] md:h-[24px] relative top-0 rounded-[0px_0px_45px_45px]"></div>
         <div className="flex flex-col py-8 md:py-[4%] md:flex-row w-[90%] mx-auto h-fit justify-between items-center">
@@ -32,7 +33,7 @@ function AboutCoach() {
             </strong>
           </h2>
           <div className="w-[85%] mx-auto md:w-[25%] h-full relative flex justify-center items-center">
-            <div className="bg-[#FF914D] bg-opacity-30 w-full absolute blur-[35px] -z-10 aspect-square rounded-full"></div>
+            <div className="bg-[#FF914D] bg-opacity-25 w-full absolute blur-2xl -z-10 aspect-square rounded-full"></div>
             <Image src={tejaCoach} alt="" className="w-full h-fit" />
           </div>
           <div className="w-full md:w-[55%]">
@@ -104,7 +105,7 @@ function AboutCoach() {
         </div>
         <div className="bg-[#FF914D] w-[70%] h-[18px] md:h-[24px] relative bottom-0 rounded-[45px_45px_0px_0px]"></div>
       </div>
-      <div className="bg-[#FF914D] absolute bottom-0 right-0 -z-10 bg-opacity-15 w-[25vw] min-w-[350px] aspect-[1.2/1] blur-2xl rounded-full translate-x-1/2"></div>
+      <div className="bg-[#FF914D] absolute bottom-0 right-0 -z-10 bg-opacity-25 w-[25vw] min-w-[350px] aspect-[1.2/1] blur-2xl rounded-full translate-x-1/2"></div>
     </div>
   );
 }

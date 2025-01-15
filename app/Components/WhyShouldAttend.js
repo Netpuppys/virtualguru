@@ -75,7 +75,7 @@ function WhyShouldAttend() {
           </div>
         ))}
       </div>
-      <div className="bg-[#FF914D] absolute bottom-0 left-0 -z-10 bg-opacity-15 w-[25vw] min-w-[350px] aspect-[1.2/1] blur-2xl rounded-full -translate-x-1/2 translate-y-1/2"></div>
+      <div className="bg-[#FF914D] absolute bottom-0 left-0 -z-10 bg-opacity-25 w-[25vw] min-w-[350px] aspect-[1.2/1] blur-2xl rounded-full -translate-x-1/2 translate-y-1/2"></div>
     </div>
   );
 }

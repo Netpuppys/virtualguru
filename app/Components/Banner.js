@@ -121,7 +121,7 @@ function Banner() {
           </div>
         </div>
         <div className="w-[80%] ml-auto md:mx-auto md:w-[25%] h-full relative flex justify-center items-center">
-          <div className="bg-[#FF914D] bg-opacity-30 w-full absolute blur-[35px] -z-10 aspect-square rounded-full"></div>
+          <div className="bg-[#FF914D] bg-opacity-25 w-full absolute blur-2xl -z-10 aspect-square rounded-full"></div>
           <Image src={TejaBanner} alt="" className="w-full h-fit" />
         </div>
       </div>
