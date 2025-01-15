@@ -110,9 +110,9 @@ function Banner() {
                 </div>
               </div>
             </div>
-            <div className="w-full flex justify-end items-center gap-3">
-              <button className="buttonSmall w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full">
-                Join For Free Now
+            <div className="w-full pt-5 md:pt-[2%] flex justify-end items-center gap-3">
+              <button className="buttonSmall w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-14 rounded-full">
+                Top Career Growth Voice
               </button>
               <button className="bg-[#FF914D] p-2 rounded-full text-white !aspect-square">
                 <BiLogoLinkedin />
@@ -127,8 +127,8 @@ function Banner() {
       </div>
       <div className="md:hidden w-full h-full px-5 md:px-10">
         <div className="w-full pb-5 flex justify-center items-center gap-3">
-          <button className="buttonSmall w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full">
-            Join For Free Now
+          <button className="buttonSmall w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-14 rounded-full">
+            Top Career Growth Voice
           </button>
           <button className="bg-[#FF914D] p-2 rounded-full text-white !aspect-square">
             <BiLogoLinkedin />
