@@ -94,9 +94,9 @@ function PowerfullWebinar() {
           </div>
         ))}
       </div>
-      <button className="mt-8 md:mt-[3%] w-full md:w-fit mx-auto flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full">
+      <button className="mt-8 md:mt-[3%] w-full group shadow-[0px_4px_20.1px_0px_rgba(0,0,0,0.25)] md:w-fit mx-auto flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300">
         Join For Free Now{" "}
-        <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53]">
+        <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53] border-[#323A53] group-hover:bg-[#FFF] group-hover:border-[#323A53] border transition-all ease-in duration-300">
           <FaArrowRight />
         </span>
       </button>

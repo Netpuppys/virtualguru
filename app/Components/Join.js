@@ -13,9 +13,9 @@ function Join() {
             give undivided attention and attend this free webinar!
           </span>
         </h6>
-        <button className="mt-8 md:mt-[3%] w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full">
+        <button className="mt-8 md:mt-[3%] group w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300">
           Join For Free Now{" "}
-          <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53]">
+          <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53] border-[#323A53] group-hover:bg-[#FFF] group-hover:border-[#323A53] border transition-all ease-in duration-300">
             <FaArrowRight />
           </span>
         </button>

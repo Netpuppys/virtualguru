@@ -11,7 +11,7 @@ function FAQ() {
     "What is so unique about this program compared to others?",
     "Is this webinar applicable to all levels including freshers?",
     "I have a career gap. Will I still be able to secure my dream job through this webinar?",
-    "What is the guarantee that this will work for me?",
+    "What is the guarantee that this will work for me? ",
     "Do I have to pay to attend this webinar?",
   ];
 
@@ -23,6 +23,28 @@ function FAQ() {
       experience and the collective experience of working with 100s of HR heads
       to bring simple to use TINY NOTICEABLE GROWTH HACKS that work, packaged in
       a 2 hr webinar.
+    </>,
+    <>
+      Growing in your careers is simple. It just needs the right process and the
+      process never discriminates based on your experience. This program is
+      applicable to all levels. Yes, some levels of experience take more than
+      than the others, but the Tiny Noticeable Growth hacks work for all levels.
+    </>,
+    <>
+      The answer is absolutely YES. 100s of my participants with career gaps
+      could easily find jobs their choice by applying the Tiny Noticeable Growth
+      Hacks.
+    </>,
+    <>
+      I understand the apprehension you may have since there are so many ads you
+      may be seeing. There are thousands of participants who have benefited from
+      this webinar. This is exactly why this webinar is being given to you for
+      free for a limited time. All you need to invest is 2 hrs of undivided
+      attention and you will see for yourself.
+    </>,
+    <>
+      Absolutely NO. This is a limited time offer to attend this 2 hr webinar
+      completely free.
     </>,
   ];
 
@@ -81,9 +103,9 @@ function FAQ() {
             </div>
           </div>
         ))}
-        <button className="flex items-center justify-center gap-2 text-[#FF914D] font-[TTChocolatesMedium] font-black">
+        {/* <button className="flex items-center justify-center gap-2 text-[#FF914D] font-[TTChocolatesMedium] font-black">
           Read All FAQs <IoIosArrowForward />
-        </button>
+        </button> */}
       </div>
     </div>
   );

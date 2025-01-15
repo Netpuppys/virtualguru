@@ -96,9 +96,9 @@ function AboutCoach() {
               </div>
             ))}
           </div>
-          <button className="my-8 md:my-[3%] w-full md:w-fit mx-auto flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full">
+          <button className="my-8 md:my-[3%] w-full group md:w-fit mx-auto flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-20 rounded-full">
             Join The Webinar For Free Now{" "}
-            <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53]">
+            <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53] border-[#323A53] group-hover:bg-[#FFF] group-hover:border-[#323A53] border transition-all ease-in duration-300">
               <FaArrowRight />
             </span>
           </button>
