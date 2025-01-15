@@ -18,14 +18,14 @@ function SuperLoved() {
   ];
   return (
     <div className="w-[95%] mx-auto px-3 h-full py-8 md:py-[2%]">
-      <h2 className="md:text-center pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
+      <h2 className="px-5 md:text-center pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
         Our attendees have{" "}
         <span className="font-[NeueHaasDisplayBold] text-[#FF914D]">
           Super Loved This Program
         </span>{" "}
         and it shows...
       </h2>
-      <div className="flex flex-wrap items-center justify-center w-full md:w-[85%] mx-auto h-full gap-3">
+      <div className="flex flex-wrap items-center justify-center px-4 md:px-0 w-full md:w-[85%] mx-auto h-full gap-3">
         {video.map((video, index) => (
           <div
             key={index}

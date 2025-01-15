@@ -16,7 +16,6 @@ function PowerfullWebinar() {
           jobs
         </>
       ),
-      defaultchecked: true,
     },
     {
       title: (
@@ -28,7 +27,6 @@ function PowerfullWebinar() {
           LinkedIn or job portals
         </>
       ),
-      defaultchecked: true,
     },
     {
       title: (
@@ -40,7 +38,6 @@ function PowerfullWebinar() {
           job!
         </>
       ),
-      defaultchecked: true,
     },
     {
       title: (
@@ -51,7 +48,6 @@ function PowerfullWebinar() {
           to influence HR and be noticed amongst 100s of applicants
         </>
       ),
-      defaultchecked: true,
     },
     {
       title: (
@@ -62,7 +58,6 @@ function PowerfullWebinar() {
           and get noticed by recruiters as subject matter experts in your field
         </>
       ),
-      defaultchecked: true,
     },
     {
       title: (
@@ -73,24 +68,12 @@ function PowerfullWebinar() {
           to easily find high paying international jobs
         </>
       ),
-      defaultchecked: true,
     },
   ];
 
-  // Initialize state for checkboxes
-  const [checkedState, setCheckedState] = useState(
-    card.map((item) => item.defaultchecked || false)
-  );
-
-  // Handle checkbox change
-  const handleCheckboxChange = (index) => {
-    setCheckedState((prev) =>
-      prev.map((checked, i) => (i === index ? !checked : checked))
-    );
-  };
   return (
     <div className="w-[95%] mx-auto px-3 h-full pb-8 md:py-[2%]">
-      <h2 className="md:text-center  pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
+      <h2 className="md:text-center px-4 md:px-0 pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
         What will you discover and learn in this{" "}
         <span className="font-[NeueHaasDisplayBold] text-[#FF914D]">
           powerful webinar:
@@ -103,20 +86,8 @@ function PowerfullWebinar() {
             className="border-2 border-[#323A53] shadow-[0px_4px_20.1px_0px_rgba(0,0,0,0.25)] py-4 px-4 md:px-8 flex flex-col w-full md:w-[90%] rounded-2xl justify-between"
           >
             <label className="flex gap-4 md:gap-8 w-full mx-auto">
-              <input
-                type="checkbox"
-                checked={checkedState[index]}
-                onChange={() => handleCheckboxChange(index)}
-                className="hidden peer"
-              />
-              <span className="min-w-8 max-w-8 min-h-8 max-h-8 bg-[#F5DBCA] p-[6px] rounded-full flex items-center justify-center peer-checked:bg-[#FF914D]">
-                {checkedState[index] && (
-                  <Image
-                    src={checked}
-                    alt="Checked"
-                    className="w-full h-full"
-                  />
-                )}
+              <span className="min-w-8 max-w-8 min-h-8 max-h-8 p-[6px] rounded-full flex items-center justify-center bg-[#FF914D]">
+                <Image src={checked} alt="" className="w-full h-full" />
               </span>
               <h7 className="font-[TTChocolates]">{card.title}</h7>
             </label>

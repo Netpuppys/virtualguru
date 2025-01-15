@@ -51,8 +51,8 @@ function Banner() {
       <div className="bg-[#FF914D] w-[70%] h-[18px] md:h-[24px] relative top-0 rounded-[0px_0px_45px_45px]"></div>
       <div className="flex flex-col py-8 md:py-[4%] md:flex-row w-[90%] mx-auto h-fit justify-between items-start">
         <div className="w-full md:w-fit  md:max-w-[70%]">
-          <h6 className="bg-white flex flex-col md:block shadow-[0px_4px_16.9px_0px_rgba(0,0,0,0.25)] rounded-3xl md:rounded-full py-3 px-5 md:px-10 font-[NeueHaasDisplayBold] font-bold">
-            <span className="text-[#FF914D] underline underline-offset-4">
+          <h6 className="bg-white flex flex-col md:block shadow-[0px_4px_16.9px_0px_rgba(0,0,0,0.25)] rounded-3xl md:rounded-full py-3 px-5 md:px-10 font-[NeueHaasDisplay400]">
+            <span className="text-[#FF914D] underline underline-offset-4 font-[NeueHaasDisplayBold] font-bold">
               Attention Job Seekers:
             </span>{" "}
             Tired of applying for jobs and not getting any responses?
@@ -134,7 +134,7 @@ function Banner() {
             <BiLogoLinkedin />
           </button>
         </div>
-        <h6 className="pb-5 font-[NeueHaasDisplay400] font-normal">
+        <h6 className="px-5 pb-5 font-[NeueHaasDisplay400] font-normal">
           Learn the most powerful and easiest strategy to crack any job and get
           high paying jobs ! Stay ahead of your competition with ease!
         </h6>
@@ -145,7 +145,7 @@ function Banner() {
           </span>
         </button>
         <div className="pt-5 md:pt-[1.5%] w-fit flex flex-col justify-center items-center">
-          <h6 className="font-[NeueHaasDisplay400] font-normal">
+          <h6 className="px-5 font-[NeueHaasDisplay400] font-normal">
             This is the{" "}
             <span className="text-[#FF914D] font-black">FASTEST</span> way to
             your dream job

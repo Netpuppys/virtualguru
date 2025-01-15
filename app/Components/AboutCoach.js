@@ -22,7 +22,7 @@ function AboutCoach() {
       <div className="w-[calc(100%-30px)] md:w-[calc(100%-50px)] mx-auto relative rounded-3xl my-[15px] md:my-[25px] h-fit shadow-[0px_4px_71.8px_0px_rgba(0,0,0,0.25] min-h-[600px] bg-[#CB723A] bg-opacity-10 flex flex-col justify-center items-center">
         <div className="bg-[#FF914D] w-[70%] h-[18px] md:h-[24px] relative top-0 rounded-[0px_0px_45px_45px]"></div>
         <div className="flex flex-col py-8 md:py-[4%] md:flex-row w-[90%] mx-auto h-fit justify-between items-center">
-          <h2 className="md:hidden pt-8 w-full font-[NeueHaasDisplay400] font-normal">
+          <h2 className="md:hidden px-4 md:px-0 pt-8 w-full font-[NeueHaasDisplay400] font-normal">
             <strong className="font-[NeueHaasDisplay400]">
               About Your Coach
               <br />
@@ -44,7 +44,7 @@ function AboutCoach() {
                 </span>
               </strong>
             </h2>
-            <h6 className="pt-5 md:pb-[2%] font-[NeueHaasDisplay400] font-normal">
+            <h6 className="pt-8 md:pt-5 px-4 md:px-0 md:pb-[2%] font-[NeueHaasDisplay400] font-normal">
               <span className="text-[#FF914D] font-[NeueHaasDisplayBold] font-bold">
                 Teja Gudluru
               </span>{" "}
@@ -69,7 +69,7 @@ function AboutCoach() {
           </div>
         </div>
         <div className="w-[95%] mx-auto px-3 h-full">
-          <h2 className="md:text-center pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
+          <h2 className="md:text-center px-4 md:px-0 pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
             <span className="font-[NeueHaasDisplayBold] text-[#FF914D]">
               Most awarded
             </span>{" "}

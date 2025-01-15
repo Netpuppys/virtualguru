@@ -34,7 +34,7 @@ function FAQ() {
 
   return (
     <div className="w-[95%] mx-auto px-3 h-full pb-8 md:py-[2%]">
-      <h2 className="md:text-center pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
+      <h2 className="md:text-center px-4 md:px-0 pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
         Frequently Asked{" "}
         <span className="font-[NeueHaasDisplayBold] text-[#FF914D]">
           Questions
@@ -45,35 +45,35 @@ function FAQ() {
           <div key={index} className="w-full">
             <div
               onClick={() => toggleExpand(index)}
-              className={`w-full flex border-2 py-4 rounded-3xl md:rounded-[34px] items-center justify-between transition-all duration-300 ${
+              className={`w-full flex border-2 cursor-pointer py-4 rounded-3xl md:rounded-[30px] items-center justify-between transition-all duration-300 ${
                 expanded === index
                   ? "shadow-[0px_3.63px_24.686px_3.63px_rgba(255,145,77,0.63)] border-[#FF914D]"
-                  : "border-[#323A53]"
+                  : "border-[#323A53] hover:text-[#FF914D] hover:border-[#FF914D]"
               }`}
             >
               <h7
                 className={`w-full md:w-[80%] px-4 md:px-10 font-[TTChocolatesMedium] rounded-full transition-all duration-300 ${
-                  expanded === index ? "text-[#FF914D] font-black" : ""
+                  expanded === index
+                    ? "text-[#FF914D] font-black"
+                    : "hover:text-[#FF914D]"
                 }`}
               >
                 {item}
               </h7>
-              <div
+              <h6
                 className={`w-fit px-4 md:px-10 transition-transform duration-300 ${
-                  expanded === index ? "rotate-180" : "rotate-0"
+                  expanded === index
+                    ? "rotate-180 text-[#FF914D]"
+                    : "rotate-0 hover:text-[#FF914D]"
                 }`}
               >
-                <IoIosArrowDown
-                  className={`text-xl transition-transform duration-300 ${
-                    expanded === index ? "rotate-180" : "rotate-0"
-                  }`}
-                />
-              </div>
+                <IoIosArrowDown />
+              </h6>
             </div>
             <div
-              className={`w-full px-4 md:px-10 pt-4 overflow-hidden transition-all duration-500 ease-in ${
+              className={`w-full px-4 md:px-10 py-1 overflow-hidden transition-all duration-500 ease-in ${
                 expanded === index
-                  ? "max-h-full opacity-100"
+                  ? "max-h-full opacity-100 py-7"
                   : "max-h-0 opacity-0"
               }`}
             >

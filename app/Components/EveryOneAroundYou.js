@@ -26,7 +26,7 @@ function EveryOneAroundYou() {
   ];
   return (
     <div className="w-[95%] relative mx-auto px-3 h-full pb-8 md:py-[2%]">
-      <h2 className="md:text-center  pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
+      <h2 className="md:text-center px-4 md:px-0 pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
         And are you tired of hearing this from{" "}
         <span className="font-[NeueHaasDisplayBold] text-[#FF914D]">
           everyone around you? ….
@@ -38,7 +38,7 @@ function EveryOneAroundYou() {
             key={index}
             className="py-5 border-b border-black last:border-none px-4 md:px-8 flex flex-col w-full justify-between"
           >
-            <h7 className="text-center md:max-w-[80%] mx-auto font-[TTChocolates] peer-checked:font-[TTChocolatesMedium] peer-checked:font-black peer-checked:text-[#FF914D]">
+            <h7 className="text-center md:max-w-[80%] mx-auto font-[NeueHaasDisplay400]">
               {card.title}
             </h7>
           </div>

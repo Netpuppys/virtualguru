@@ -7,15 +7,12 @@ function Category() {
   const card = [
     {
       title: "You feel ignored and not valued at your current job",
-      defaultchecked: true,
     },
     {
       title: "You do all the hard work and someone else gets all the accolades",
-      defaultchecked: true,
     },
     {
       title: "You are tired of waiting for your loyalty to be valued",
-      defaultchecked: true,
     },
     {
       title:
@@ -30,12 +27,10 @@ function Category() {
     {
       title:
         "Your boss is not a great mentor and you are tired of waiting for guidance",
-      defaultchecked: true,
     },
     {
       title:
         "You are unsure of what else you can do to finally land that dream job",
-      defaultchecked: true,
     },
   ];
 
@@ -53,7 +48,7 @@ function Category() {
 
   return (
     <div className="w-[95%] mx-auto px-3 h-full pb-8 md:py-[2%]">
-      <h2 className="md:text-center  pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
+      <h2 className="md:text-center px-4 md:px-0 pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
         Do you{" "}
         <span className="font-[NeueHaasDisplayBold] text-[#FF914D]">
           Fall in this Category?
@@ -63,7 +58,7 @@ function Category() {
         {card.map((card, index) => (
           <div
             key={index}
-            className="border-2 border-[#FF914D] shadow-[0px_4px_20.1px_0px_rgba(0,0,0,0.25)] py-4 px-4 md:px-8 flex flex-col w-full md:w-[60%] rounded-2xl justify-between"
+            className="border-2 group border-[#FF914D] shadow-[0px_4px_20.1px_0px_rgba(0,0,0,0.25)] py-4 px-4 md:px-8 flex flex-col w-full md:w-[60%] rounded-2xl justify-between"
           >
             <label className="flex gap-[5%] w-[95%] mx-auto">
               <input
@@ -72,7 +67,7 @@ function Category() {
                 onChange={() => handleCheckboxChange(index)}
                 className="hidden peer"
               />
-              <span className="min-w-8 max-w-8 min-h-8 max-h-8 bg-[#F5DBCA] p-[6px] rounded-full flex items-center justify-center peer-checked:bg-[#FF914D]">
+              <span className="min-w-8 max-w-8 min-h-8 max-h-8 bg-[#F5DBCA] p-[6px] rounded-full flex items-center justify-center peer-checked:bg-[#FF914D] group-hover:bg-[#FF914D] transition-all duration-300 ease-in">
                 {checkedState[index] && (
                   <Image
                     src={checked}
@@ -81,7 +76,7 @@ function Category() {
                   />
                 )}
               </span>
-              <h7 className="font-[TTChocolates] peer-checked:font-[TTChocolatesMedium] peer-checked:font-black peer-checked:text-[#FF914D]">
+              <h7 className="font-[TTChocolates] peer-checked:font-[TTChocolatesMedium] peer-checked:font-black peer-checked:text-[#FF914D] group-hover:text-[#FF914D] transition-all duration-300 ease-in">
                 {card.title}
               </h7>
             </label>
