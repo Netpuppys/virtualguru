@@ -76,9 +76,9 @@ function Category() {
                   />
                 )}
               </span>
-              <h7 className="font-[TTChocolates] peer-checked:font-[TTChocolatesMedium] peer-checked:font-black peer-checked:text-[#FF914D] group-hover:text-[#FF914D] transition-all duration-300 ease-in">
+              <h4 className="font-[TTChocolates] peer-checked:font-[TTChocolatesMedium] peer-checked:font-black peer-checked:text-[#FF914D] group-hover:text-[#FF914D] transition-all duration-300 ease-in">
                 {card.title}
-              </h7>
+              </h4>
             </label>
           </div>
         ))}

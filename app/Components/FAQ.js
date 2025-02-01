@@ -55,7 +55,7 @@ function FAQ() {
   };
 
   return (
-    <div className="w-[95%] mx-auto px-3 h-full pb-8 md:py-[2%]">
+    <div className="w-[95%] mx-auto px-3 h-full pb-8 md:py-[2%] mb-28 md:mb-[8%]">
       <h2 className="md:text-center px-4 md:px-0 pb-4 md:pb-[2%] font-[NeueHaasDisplay400]">
         Frequently Asked{" "}
         <span className="font-[NeueHaasDisplayBold] text-[#FF914D]">
@@ -73,7 +73,7 @@ function FAQ() {
                   : "border-[#323A53] hover:text-[#FF914D] hover:border-[#FF914D]"
               }`}
             >
-              <h7
+              <h4
                 className={`w-full md:w-[80%] px-4 md:px-10 font-[TTChocolatesMedium] rounded-full transition-all duration-300 ${
                   expanded === index
                     ? "text-[#FF914D] font-black"
@@ -81,7 +81,7 @@ function FAQ() {
                 }`}
               >
                 {item}
-              </h7>
+              </h4>
               <h6
                 className={`w-fit px-4 md:px-10 transition-transform duration-300 ${
                   expanded === index
@@ -99,7 +99,7 @@ function FAQ() {
                   : "max-h-0 opacity-0"
               }`}
             >
-              <h7 className="font-[TTChocolatesMedium]">{answers[index]}</h7>
+              <h4 className="font-[TTChocolatesMedium]">{answers[index]}</h4>
             </div>
           </div>
         ))}

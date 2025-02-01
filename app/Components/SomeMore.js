@@ -29,12 +29,12 @@ function SomeMore() {
             key={index}
             className="bg-[#EAEAEA] group hover:bg-[#FF914D] transition-all duration-300 ease-in shadow-[0px_4px_16.9px_0px_rgba(0,0,0,0.25)] text-center py-5 px-8 flex flex-col w-full md:w-[calc(33%-12px)] rounded-2xl justify-between"
           >
-            <h7 className="font-[TTChocolatesMedium] group-hover:text-white transition-all duration-300 ease-in">
+            <h4 className="font-[TTChocolatesMedium] group-hover:text-white transition-all duration-300 ease-in">
               {card.description}
-            </h7>
-            <h7 className="font-[TTChocolatesMedium] text-[#FF914D] group-hover:text-[#323A53] pt-7 transition-all duration-300 ease-in">
+            </h4>
+            <h4 className="font-[TTChocolatesMedium] text-[#FF914D] group-hover:text-[#323A53] pt-7 transition-all duration-300 ease-in">
               {card.title}
-            </h7>
+            </h4>
           </div>
         ))}
       </div>

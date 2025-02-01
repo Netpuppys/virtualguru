@@ -85,37 +85,37 @@ function Banner() {
               </h6>
               <div className="flex pt-5 md:pt-[2%] gap-5 justify-center items-center w-fit mx-auto">
                 <div className="bg-[#ECD8CB] flex flex-col justify-center items-center gap-1 px-3 py-2 rounded-md">
-                  <h7 className="text-[#323A53] font-[TTChocolatesMedium] font-semibold">
+                  <h4 className="text-[#323A53] font-[TTChocolatesMedium] font-semibold">
                     {timeLeft.hours?.toString().padStart(2, "0")}
-                  </h7>
-                  <h7 className="text-[#CC743E] font-[TTChocolatesMedium] font-normal">
+                  </h4>
+                  <h4 className="text-[#CC743E] font-[TTChocolatesMedium] font-normal">
                     Hrs
-                  </h7>
+                  </h4>
                 </div>
                 <div className="bg-[#ECD8CB] flex flex-col justify-center items-center gap-1 px-3 py-2 rounded-md">
-                  <h7 className="text-[#323A53] font-[TTChocolatesMedium] font-semibold">
+                  <h4 className="text-[#323A53] font-[TTChocolatesMedium] font-semibold">
                     {timeLeft.minutes?.toString().padStart(2, "0")}
-                  </h7>
-                  <h7 className="text-[#CC743E] font-[TTChocolatesMedium] font-normal">
+                  </h4>
+                  <h4 className="text-[#CC743E] font-[TTChocolatesMedium] font-normal">
                     Min
-                  </h7>
+                  </h4>
                 </div>
                 <div className="bg-[#ECD8CB] flex flex-col justify-center items-center gap-1 px-3 py-2 rounded-md">
-                  <h7 className="text-[#323A53] font-[TTChocolatesMedium] font-semibold">
+                  <h4 className="text-[#323A53] font-[TTChocolatesMedium] font-semibold">
                     {timeLeft.seconds?.toString().padStart(2, "0")}
-                  </h7>
-                  <h7 className="text-[#CC743E] font-[TTChocolatesMedium] font-normal">
+                  </h4>
+                  <h4 className="text-[#CC743E] font-[TTChocolatesMedium] font-normal">
                     Sec
-                  </h7>
+                  </h4>
                 </div>
               </div>
             </div>
             <div className="w-full pt-5 md:pt-[2%] flex justify-end items-center gap-3">
-              <button className="buttonSmall w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-14 rounded-full">
+              <button className="buttonSmall group w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-14 rounded-full">
+                <div className="bg-white p-2 rounded-full !aspect-square group-hover:bg-[#FF914D] text-[#FF914D] group-hover:text-white transition-all ease-in duration-300">
+                  <BiLogoLinkedin />
+                </div>
                 Top Career Growth Voice
-              </button>
-              <button className="bg-[#FF914D] p-2 rounded-full text-white !aspect-square hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300">
-                <BiLogoLinkedin />
               </button>
             </div>
           </div>
@@ -127,11 +127,11 @@ function Banner() {
       </div>
       <div className="md:hidden w-full h-full px-5 md:px-10">
         <div className="w-full pb-5 flex justify-center items-center gap-3">
-          <button className="buttonSmall w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-14 rounded-full">
+          <button className="buttonSmall group w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-14 rounded-full">
+            <div className="bg-white p-2 rounded-full group-hover:text-white !aspect-square group-hover:bg-[#FF914D] text-[#FF914D] transition-all ease-in duration-300">
+              <BiLogoLinkedin />
+            </div>
             Top Career Growth Voice
-          </button>
-          <button className="bg-[#FF914D] p-2 rounded-full text-white !aspect-square hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300">
-            <BiLogoLinkedin />
           </button>
         </div>
         <h6 className="px-5 pb-5 font-[NeueHaasDisplay400] font-normal">
@@ -152,28 +152,28 @@ function Banner() {
           </h6>
           <div className="flex py-5 gap-5 justify-center items-center w-fit mx-auto">
             <div className="bg-[#ECD8CB] flex flex-col justify-center items-center gap-1 px-3 py-2 rounded-md">
-              <h7 className="text-[#323A53] font-[TTChocolatesMedium] font-semibold">
+              <h4 className="text-[#323A53] font-[TTChocolatesMedium] font-semibold">
                 {timeLeft.hours?.toString().padStart(2, "0")}
-              </h7>
-              <h7 className="text-[#CC743E] font-[TTChocolatesMedium] font-normal">
+              </h4>
+              <h4 className="text-[#CC743E] font-[TTChocolatesMedium] font-normal">
                 Hrs
-              </h7>
+              </h4>
             </div>
             <div className="bg-[#ECD8CB] flex flex-col justify-center items-center gap-1 px-3 py-2 rounded-md">
-              <h7 className="text-[#323A53] font-[TTChocolatesMedium] font-semibold">
+              <h4 className="text-[#323A53] font-[TTChocolatesMedium] font-semibold">
                 {timeLeft.minutes?.toString().padStart(2, "0")}
-              </h7>
-              <h7 className="text-[#CC743E] font-[TTChocolatesMedium] font-normal">
+              </h4>
+              <h4 className="text-[#CC743E] font-[TTChocolatesMedium] font-normal">
                 Min
-              </h7>
+              </h4>
             </div>
             <div className="bg-[#ECD8CB] flex flex-col justify-center items-center gap-1 px-3 py-2 rounded-md">
-              <h7 className="text-[#323A53] font-[TTChocolatesMedium] font-semibold">
+              <h4 className="text-[#323A53] font-[TTChocolatesMedium] font-semibold">
                 {timeLeft.seconds?.toString().padStart(2, "0")}
-              </h7>
-              <h7 className="text-[#CC743E] font-[TTChocolatesMedium] font-normal">
+              </h4>
+              <h4 className="text-[#CC743E] font-[TTChocolatesMedium] font-normal">
                 Sec
-              </h7>
+              </h4>
             </div>
           </div>
         </div>

@@ -89,12 +89,26 @@ function PowerfullWebinar() {
               <span className="min-w-8 max-w-8 min-h-8 max-h-8 p-[6px] rounded-full flex items-center justify-center bg-[#FF914D]">
                 <Image src={checked} alt="" className="w-full h-full" />
               </span>
-              <h7 className="font-[TTChocolates]">{card.title}</h7>
+              <h4 className="font-[TTChocolates]">{card.title}</h4>
             </label>
           </div>
         ))}
       </div>
-      <button className="mt-8 md:mt-[3%] w-full group shadow-[0px_4px_20.1px_0px_rgba(0,0,0,0.25)] md:w-fit mx-auto flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300">
+      <h2 className="text-center mt-8 md:mt-[3%] leading-tight px-4 md:px-0 font-[NeueHaasDisplay400]">
+        Webinar Value{" "}
+        <span className="font-[NeueHaasDisplayBold] text-[#FF914D]">
+          Rs 999/-
+        </span>{" "}
+      </h2>
+      <h2 className="text-center px-4 md:px-0 leading-tight font-[NeueHaasDisplay400]">
+        <strong>
+          You get it for{" "}
+          <span className="font-[NeueHaasDisplayBold] text-[#FF914D]">
+            Free Today!
+          </span>
+        </strong>
+      </h2>
+      <button className="mt-8 md:mt-[2%] w-full group shadow-[0px_4px_20.1px_0px_rgba(0,0,0,0.25)] md:w-fit mx-auto flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300">
         Join For Free Now{" "}
         <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53] border-[#323A53] group-hover:bg-[#FFF] group-hover:border-[#323A53] border transition-all ease-in duration-300">
           <FaArrowRight />

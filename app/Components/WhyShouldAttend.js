@@ -69,9 +69,9 @@ function WhyShouldAttend() {
             <div className="w-[20%] p-3 bg-[#FF914D] group-hover:bg-white rounded-xl shadow-[11px_10px_12.8px_0px_rgba(255,145,77,0.24)]">
               <Image src={card.icon} alt="" className="w-full h-full" />
             </div>
-            <h7 className="w-full font-[TTChocolatesMedium] group-hover:text-white transition-all duration-300 ease-in">
+            <h4 className="w-full font-[TTChocolatesMedium] group-hover:text-white transition-all duration-300 ease-in">
               {card.description}
-            </h7>
+            </h4>
           </div>
         ))}
       </div>

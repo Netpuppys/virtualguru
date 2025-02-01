@@ -29,7 +29,7 @@ h2 strong {
   font-size: clamp(10px, 2.9vw, 75px);
 }
 button,
-h7 {
+h4 {
   font-size: clamp(10px, 1.2vw, 75px);
 }
 .buttonSmall {
@@ -46,7 +46,7 @@ h7 {
     font-size: clamp(20px, 7.4vw, 75px);
   }
   button,
-  h7 {
+  h4 {
     font-size: clamp(10px, 4vw, 75px);
   }
   .buttonSmall {

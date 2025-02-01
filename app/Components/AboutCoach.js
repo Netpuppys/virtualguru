@@ -87,12 +87,12 @@ function AboutCoach() {
                   alt=""
                   className="w-full h-full shadow-[0px_4px_27.8px_0px_rgba(0,0,0,0.25)] border object-cover aspect-[1.5/1] border-[#FF914D] bg-[#EBDFD6] rounded-2xl"
                 />
-                <h7 className="text-[#323A53] font-[NeueHaasDisplayBold] font-demibold">
+                <h4 className="text-[#323A53] font-[NeueHaasDisplayBold] font-demibold">
                   {award.title}
-                </h7>
-                <h7 className="text-[#FF914D] font-[NeueHaasDisplayBold] font-demibold">
+                </h4>
+                <h4 className="text-[#FF914D] font-[NeueHaasDisplayBold] font-demibold">
                   {award.description}
-                </h7>
+                </h4>
               </div>
             ))}
           </div>

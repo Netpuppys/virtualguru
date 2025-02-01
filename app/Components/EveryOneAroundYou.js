@@ -38,9 +38,9 @@ function EveryOneAroundYou() {
             key={index}
             className="py-5 border-b border-black last:border-none px-4 md:px-8 flex flex-col w-full justify-between"
           >
-            <h7 className="text-center md:max-w-[80%] mx-auto font-[NeueHaasDisplay400]">
+            <h4 className="text-center md:max-w-[80%] mx-auto font-[NeueHaasDisplay400]">
               {card.title}
-            </h7>
+            </h4>
           </div>
         ))}
       </div>
