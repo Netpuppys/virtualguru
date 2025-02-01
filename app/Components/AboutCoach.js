@@ -85,7 +85,7 @@ function AboutCoach() {
                 <Image
                   src={award.image}
                   alt=""
-                  className="w-full h-full shadow-[0px_4px_27.8px_0px_rgba(0,0,0,0.25)] border object-cover aspect-[1.5/1] border-[#FF914D] bg-[#EBDFD6] rounded-2xl"
+                  className="w-full h-full shadow-[0px_4px_27.8px_0px_rgba(0,0,0,0.25)] border object-cover aspect-[1.44/1] border-[#FF914D] bg-[#EBDFD6] rounded-2xl"
                 />
                 <h4 className="text-[#323A53] font-[NeueHaasDisplayBold] font-demibold">
                   {award.title}
