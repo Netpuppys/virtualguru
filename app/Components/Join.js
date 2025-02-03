@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
+import EWebinarButton from "./EWebinarbutton";
 
 function Join() {
   const signUp = () => {
@@ -17,7 +17,7 @@ function Join() {
             give undivided attention and attend this free webinar!
           </span>
         </h6>
-        <button
+        {/* <button
           onClick={signUp}
           className="mt-8 md:mt-[3%] group w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300"
         >
@@ -25,7 +25,12 @@ function Join() {
           <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53] border-[#323A53] group-hover:bg-[#FFF] group-hover:border-[#323A53] border transition-all ease-in duration-300">
             <FaArrowRight />
           </span>
-        </button>
+        </button> */}
+        <div className="mt-8 md:mt-[3%]">
+          <EWebinarButton
+            varient={1}
+          />
+        </div>
       </div>
       <div className="bg-[#FF914D] absolute top-0 right-0 -z-10 bg-opacity-25 w-[25vw] min-w-[350px] aspect-[1.2/1] blur-2xl rounded-full translate-x-1/2 -translate-y-1/2"></div>
     </div>

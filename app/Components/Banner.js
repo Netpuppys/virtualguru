@@ -4,6 +4,9 @@ import TejaBanner from "../../public/Banner/TejaBanner.png";
 import { FaArrowRight } from "react-icons/fa";
 import { BiLogoLinkedin } from "react-icons/bi";
 import Image from "next/image";
+import EWebinarButton from "./EWebinarbutton";
+// import EWebinarButtonNext from "./EWebinarbuttonNext";
+
 function Banner() {
   const [timeLeft, setTimeLeft] = useState({});
 
@@ -75,12 +78,18 @@ function Banner() {
               Learn the most powerful and easiest strategy to crack any job and
               get high paying jobs ! Stay ahead of your competition with ease!
             </h6>
-            <button onClick={signUp} className="w-full md:w-fit flex gap-5 group items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-20 rounded-full">
+
+            {/* <button onClick={signUp} className="w-full md:w-fit flex gap-5 group items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-20 rounded-full">
               Join For Free Now{" "}
               <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53] border-[#323A53] group-hover:bg-[#FFF] group-hover:border-[#323A53] border transition-all ease-in duration-300">
                 <FaArrowRight />
               </span>
-            </button>
+            </button> */}
+            <div className="w-full flex items-center justify-start">
+
+            <EWebinarButton varient={1} />
+            </div>
+
             <div className="pt-5 md:pt-[1.5%] w-fit flex flex-col justify-center items-center">
               <h6 className="font-[NeueHaasDisplay400] font-normal">
                 This is the{" "}
@@ -142,12 +151,15 @@ function Banner() {
           Learn the most powerful and easiest strategy to crack any job and get
           high paying jobs ! Stay ahead of your competition with ease!
         </h6>
-        <button onClick={signUp} className="w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-20 rounded-full">
+
+        {/* <button onClick={signUp} className="w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-20 rounded-full">
           Join For Free Now{" "}
           <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53] border-[#323A53] group-hover:bg-[#FFF] group-hover:border-[#323A53] border transition-all ease-in duration-300">
             <FaArrowRight />
           </span>
-        </button>
+        </button> */}
+        <EWebinarButton varient={1} />
+
         <div className="pt-5 md:pt-[1.5%] w-fit flex flex-col justify-center items-center">
           <h6 className="px-5 font-[NeueHaasDisplay400] font-normal">
             This is the{" "}

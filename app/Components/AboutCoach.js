@@ -4,6 +4,7 @@ import Image from "next/image";
 import award1 from "../../public/AboutCoach/award1.png";
 import award2 from "../../public/AboutCoach/award2.png";
 import { FaArrowRight } from "react-icons/fa";
+import EWebinarButton from "./EWebinarbutton";
 function AboutCoach() {
   const award = [
     {
@@ -100,7 +101,7 @@ function AboutCoach() {
               </div>
             ))}
           </div>
-          <button
+          {/* <button
             onClick={signUp}
             className="my-8 md:my-[3%] w-full group md:w-fit mx-auto flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-20 rounded-full"
           >
@@ -108,7 +109,15 @@ function AboutCoach() {
             <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53] border-[#323A53] group-hover:bg-[#FFF] group-hover:border-[#323A53] border transition-all ease-in duration-300">
               <FaArrowRight />
             </span>
-          </button>
+          </button> */}
+          <div className="w-full flex items-center justify-center my-8 md:my-[3%] ">
+            <div className="w-fit">
+              <EWebinarButton
+                varient={1}
+                text={"Join The Webinar For Free Now"}
+              />
+            </div>
+          </div>
         </div>
         <div className="bg-[#FF914D] w-[70%] h-[18px] md:h-[24px] relative bottom-0 rounded-[45px_45px_0px_0px]"></div>
       </div>

@@ -18,6 +18,7 @@ export default function Home() {
     window.location.href =
       "https://thecareergrowthproject.ewebinar.com/webinar/tiny-noticeable-growth-hacks-18902";
   };
+
   return (
     <div className="w-full h-full relative overflow-hidden">
       <div className="bg-[#FF914D] absolute top-0 left-0 -z-10 bg-opacity-25 w-[25vw] min-w-[350px] aspect-[1.2/1] blur-2xl rounded-full -translate-x-1/3 -translate-y-1/3"></div>
@@ -36,13 +37,14 @@ export default function Home() {
         <h2 className="text-white flex flex-col md:flex-row md:items-center md:gap-3 leading-tight">
           Free <strong className="text-[#FF914D]">Workshop</strong>
         </h2>
-        {/* <button
-          onClick={signUp}
-          className="w-full shadow-[0px_4px_20.1px_0px_rgba(0,0,0,0.25)] md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300"
-        >
-          Register Now
-        </button> */}
-        <EWebinarButton />
+          {/* <div
+            className="w-full shadow-[0px_4px_20.1px_0px_rgba(0,0,0,0.25)] md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300"
+          >
+            Register Now
+          </div> */}
+          <div className="w-fit">
+            <EWebinarButton />
+          </div>
       </div>
 
     </div>

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import checked from "../../public/icons/checked.png";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
+import EWebinarButton from "./EWebinarbutton";
 
 function PowerfullWebinar() {
   const signUp = () => {
@@ -112,7 +113,7 @@ function PowerfullWebinar() {
           </span>
         </strong>
       </h2>
-      <button
+      {/* <button
         onClick={signUp}
         className="mt-8 md:mt-[2%] w-full group shadow-[0px_4px_20.1px_0px_rgba(0,0,0,0.25)] md:w-fit mx-auto flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300"
       >
@@ -120,7 +121,15 @@ function PowerfullWebinar() {
         <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53] border-[#323A53] group-hover:bg-[#FFF] group-hover:border-[#323A53] border transition-all ease-in duration-300">
           <FaArrowRight />
         </span>
-      </button>
+      </button> */}
+
+      <div className="mt-8 md:mt-[2%] w-full flex items-center justify-center">
+        <div className="w-fit">
+        <EWebinarButton
+          varient={1}
+        />
+        </div>
+      </div>
     </div>
   );
 }
