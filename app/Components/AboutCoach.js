@@ -17,6 +17,10 @@ function AboutCoach() {
       description: "Asia’s Icon Awards, Colombo, 2024",
     },
   ];
+  const signUp = () => {
+    window.location.href =
+      "https://thecareergrowthproject.ewebinar.com/webinar/tiny-noticeable-growth-hacks-18902";
+  };
   return (
     <div className="w-full h-full relative">
       <div className="bg-[#FF914D] absolute top-0 left-0 -z-10 bg-opacity-25 w-[25vw] min-w-[350px] aspect-[1.2/1] blur-2xl rounded-full -translate-x-1/2 -translate-y-1/2"></div>
@@ -96,7 +100,10 @@ function AboutCoach() {
               </div>
             ))}
           </div>
-          <button className="my-8 md:my-[3%] w-full group md:w-fit mx-auto flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-20 rounded-full">
+          <button
+            onClick={signUp}
+            className="my-8 md:my-[3%] w-full group md:w-fit mx-auto flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-20 rounded-full"
+          >
             Join The Webinar For Free Now{" "}
             <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53] border-[#323A53] group-hover:bg-[#FFF] group-hover:border-[#323A53] border transition-all ease-in duration-300">
               <FaArrowRight />

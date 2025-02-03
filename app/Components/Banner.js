@@ -46,6 +46,10 @@ function Banner() {
 
     return () => clearInterval(timer);
   }, []);
+  const signUp = () => {
+    window.location.href =
+      "https://thecareergrowthproject.ewebinar.com/webinar/tiny-noticeable-growth-hacks-18902";
+  };
   return (
     <div className="w-[calc(100%-30px)] md:w-[calc(100%-50px)] mx-auto relative rounded-3xl my-[15px] md:my-[25px] h-fit shadow-[0px_4px_71.8px_0px_rgba(0,0,0,0.25)] min-h-[600px] bg-[#CB723A] bg-opacity-10 flex flex-col justify-center items-center">
       <div className="bg-[#FF914D] w-[70%] h-[18px] md:h-[24px] relative top-0 rounded-[0px_0px_45px_45px]"></div>
@@ -71,7 +75,7 @@ function Banner() {
               Learn the most powerful and easiest strategy to crack any job and
               get high paying jobs ! Stay ahead of your competition with ease!
             </h6>
-            <button className="w-full md:w-fit flex gap-5 group items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-20 rounded-full">
+            <button onClick={signUp} className="w-full md:w-fit flex gap-5 group items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-20 rounded-full">
               Join For Free Now{" "}
               <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53] border-[#323A53] group-hover:bg-[#FFF] group-hover:border-[#323A53] border transition-all ease-in duration-300">
                 <FaArrowRight />
@@ -111,7 +115,7 @@ function Banner() {
               </div>
             </div>
             <div className="w-full pt-5 md:pt-[2%] flex justify-end items-center gap-3">
-              <button className="buttonSmall group w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-14 rounded-full">
+              <button onClick={signUp} className="buttonSmall group w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-14 rounded-full">
                 <div className="bg-white p-2 rounded-full !aspect-square group-hover:bg-[#FF914D] text-[#FF914D] group-hover:text-white transition-all ease-in duration-300">
                   <BiLogoLinkedin />
                 </div>
@@ -127,7 +131,7 @@ function Banner() {
       </div>
       <div className="md:hidden w-full h-full px-5 md:px-10">
         <div className="w-full pb-5 flex justify-center items-center gap-3">
-          <button className="buttonSmall group w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-14 rounded-full">
+          <button onClick={signUp} className="buttonSmall group w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-14 rounded-full">
             <div className="bg-white p-2 rounded-full group-hover:text-white !aspect-square group-hover:bg-[#FF914D] text-[#FF914D] transition-all ease-in duration-300">
               <BiLogoLinkedin />
             </div>
@@ -138,7 +142,7 @@ function Banner() {
           Learn the most powerful and easiest strategy to crack any job and get
           high paying jobs ! Stay ahead of your competition with ease!
         </h6>
-        <button className="w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-20 rounded-full">
+        <button onClick={signUp} className="w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-20 rounded-full">
           Join For Free Now{" "}
           <span className="w-fit h-fit rounded-full p-[6px] aspect-square bg-[#323A53] border-[#323A53] group-hover:bg-[#FFF] group-hover:border-[#323A53] border transition-all ease-in duration-300">
             <FaArrowRight />
