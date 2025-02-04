@@ -124,12 +124,15 @@ function Banner() {
               </div>
             </div>
             <div className="w-full pt-5 md:pt-[2%] flex justify-end items-center gap-3">
-              <button onClick={signUp} className="buttonSmall group w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-14 rounded-full">
+              {/* <button onClick={signUp} className="buttonSmall group w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-14 rounded-full">
                 <div className="bg-white p-2 rounded-full !aspect-square group-hover:bg-[#FF914D] text-[#FF914D] group-hover:text-white transition-all ease-in duration-300">
                   <BiLogoLinkedin />
                 </div>
                 Top Career Growth Voice
-              </button>
+              </button> */}
+              <div className="w-fit h-fit">
+              <EWebinarButton varient={2} />
+              </div>
             </div>
           </div>
         </div>
@@ -140,12 +143,13 @@ function Banner() {
       </div>
       <div className="md:hidden w-full h-full px-5 md:px-10">
         <div className="w-full pb-5 flex justify-center items-center gap-3">
-          <button onClick={signUp} className="buttonSmall group w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-14 rounded-full">
+          {/* <button onClick={signUp} className="buttonSmall group w-full md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300 md:px-14 rounded-full">
             <div className="bg-white p-2 rounded-full group-hover:text-white !aspect-square group-hover:bg-[#FF914D] text-[#FF914D] transition-all ease-in duration-300">
               <BiLogoLinkedin />
             </div>
             Top Career Growth Voice
-          </button>
+          </button> */}
+            <EWebinarButton varient={2} />
         </div>
         <h6 className="px-5 pb-5 font-[NeueHaasDisplay400] font-normal">
           Learn the most powerful and easiest strategy to crack any job and get

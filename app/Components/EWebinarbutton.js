@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from "react";
+import { BiLogoLinkedin } from "react-icons/bi";
 import { FaArrowRight } from "react-icons/fa";
 
 const EWebinarButton = ({ varient=0, text="Join For Free Now" }) => {
@@ -64,7 +65,7 @@ const EWebinarButton = ({ varient=0, text="Join For Free Now" }) => {
     document.body.appendChild(script);
 
     setDisabled(false)
-
+    
     return () => {
       document.body.removeChild(script);
     };
@@ -82,33 +83,41 @@ const EWebinarButton = ({ varient=0, text="Join For Free Now" }) => {
     <div
       id="w1738576174002"
       className="ewebinar__Widget ewebinar__RegisterButton_Root w-full flex items-center justify-center md:justify-start"
-    //   style={{ padding: "2px 0 14px" }}
+      style={{ 
+        // padding: "2px 0 14px" 
+      }}
     >
       <a
         className="ewebinar__RegisterButton__Wrap ewebinar--ltr w-full flex items-center justify-center md:justify-start"
         href="javascript:;"
-        // style={{
-        //   textDecoration: "none",
-        //   display: "flex",
-        //   width: "100%",
-        //   justifyContent: "center",
-        // }}
+        style={{
+          // textDecoration: "none",
+          // display: "flex",
+          // width: "100%",
+          // justifyContent: "center",
+        }}
       >
         <button
           className="ewebinar__Widget ewebinar__RegisterButton cursor-pointer w-full md:min-w-[234px] shadow-[0px_4px_20.1px_0px_rgba(0,0,0,0.25)] md:w-fit flex gap-5 items-center font-[NeueHaasDisplayBold] text-white justify-center py-2 bg-[#FF914D] md:px-20 rounded-full hover:bg-white hover:text-[#FF914D] transition-all ease-in duration-300"
           type="button"
         //   disabled={disabled}
-        //   style={{
-        //     borderRadius: "50px",
-        //     background: "#ff5b00ff",
-        //     color: "#ffffff",
-        //   }}
+          style={{
+            // borderRadius: "50px",
+            // background: "#ff5b00ff",
+            // color: "#ffffff",
+          }}
         >
-          {/* <div className="ewebinar__Dots">
-            <span className="ewebinar__LoadingDot" style={{ background: "#ffffff" }}></span>
-            <span className="ewebinar__LoadingDot" style={{ background: "#ffffff" }}></span>
-            <span className="ewebinar__LoadingDot" style={{ background: "#ffffff" }}></span>
-          </div> */}
+          <div className="ewebinar__Dots">
+            <span className="ewebinar__LoadingDot" style={{ 
+              // background: "#ffffff" 
+              }}></span>
+            <span className="ewebinar__LoadingDot" style={{ 
+              // background: "#ffffff" 
+              }}></span>
+            <span className="ewebinar__LoadingDot" style={{ 
+              // background: "#ffffff" 
+              }}></span>
+          </div>
 
           {varient===0 &&
           <span className="ewebinar__ButtonText md:text-[clamp(10px,1.2vw,75px)] font-bold">
@@ -122,17 +131,31 @@ const EWebinarButton = ({ varient=0, text="Join For Free Now" }) => {
                 <FaArrowRight />
             </span>
           </div>}
+
+          {varient===2 &&
+          <div className="flex items-center justify-center text-nowrap gap-2 w-full md:w-[376px] md:text-[clamp(10px,1.2vw,75px)] font-bold">
+            <div className="bg-white p-2 rounded-full group-hover:text-white !aspect-square group-hover:bg-[#FF914D] text-[#FF914D] transition-all ease-in duration-300">
+              <BiLogoLinkedin />
+            </div>
+            <span className="ewebinar__ButtonText">
+            Top Career Growth Voice
+            </span>
+          </div>}
         </button>
       </a>
       <noscript>
         <div
-        //   style={{
-        //     textAlign: "center",
-        //     margin: "0.5em",
-        //     textDecoration: "none",
-        //   }}
+          style={{
+            // textAlign: "center",
+            // margin: "0.5em",
+            // textDecoration: "none",
+          }}
         >
-          <a style={{ color: "#000", fontSize: "13px" }} href="https://act.virtualguru.online/">
+          <a 
+            style={{ 
+              // color: "#000", fontSize: "13px" 
+            }} 
+            href="https://act.virtualguru.online/">
             Register Now
           </a>
         </div>
