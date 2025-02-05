@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, rgba(255, 145, 77, 0.9), rgba(50, 58, 83, 0.9));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .thank-you-container {
+            background: white;
+            max-width: 600px;
+            text-align: center;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .thank-you-container img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .thank-you-container h1 {
+            color: #ff914d;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .thank-you-container p {
+            color: #323a53;
+            font-size: 16px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .whatsapp-link {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            font-weight: 500;
+            padding: 12px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.3s;
+            margin-bottom: 20px;
+        }
+
+        .whatsapp-link:hover {
+            background: #1EBE5D;
+        }
+
+        .qr-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .qr-container img {
+            width: 120px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 600px) {
+            .thank-you-container {
+                width: 100%;
+                padding: 30px;
+            }
+
+            .qr-container img {
+                width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="thank-you-container">
+        <img src="https://virtualguru.online/act-images/thank-you.png" alt="Thank You">
+        <h1>Thank You for Your Payment!</h1>
+        <p>You are now registered for the **3-Day Accelerated Career Trajectory Webinar.**</p>
+        <p>To receive all updates about the webinar, please join our WhatsApp group below:</p>
+        
+        <a href="https://chat.whatsapp.com/IVtJvKSsZtsDk4qT5cEa5U" class="whatsapp-link" target="_blank">
+            Join WhatsApp Group
+        </a>
+
+        <div class="qr-container">
+            <img src="https://virtualguru.online/act-images/whatsapp.png" alt="WhatsApp QR Code">
+        </div>
+    </div>
+
+</body>
+</html>
