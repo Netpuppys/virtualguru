@@ -14,15 +14,16 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Crack Your Dream Job in 30 Days | Virtual Guru",
-  description: "Struggling to land your dream job? Discover a powerful 3-step framework to secure high-paying jobs effortlessly. Learn proven strategies to stay ahead of the competition and achieve your career goals in just 30 days. Join for free today!",
+  description:
+    "Struggling to land your dream job? Discover a powerful 3-step framework to secure high-paying jobs effortlessly. Learn proven strategies to stay ahead of the competition and achieve your career goals in just 30 days. Join for free today!",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      {/* <!-- Google Tag Manager --> */}
-      <Script
+        {/* <!-- Google Tag Manager --> */}
+        <script
           id="gtag-1"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -35,11 +36,11 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-      {/* <!-- End Google Tag Manager --> */}
+        {/* <!-- End Google Tag Manager --> */}
 
-      {/* <!-- Meta Pixel Code --> */}
-      {/* Meta Pixel */}
-      <Script
+        {/* <!-- Meta Pixel Code --> */}
+        {/* Meta Pixel */}
+        <script
           id="meta-pixel"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -58,25 +59,27 @@ export default function RootLayout({ children }) {
           }}
         />
         <noscript>
-          <img 
-            height="1" 
-            width="1" 
+          <img
+            height="1"
+            width="1"
             style={{ display: "none" }}
             src="https://www.facebook.com/tr?id=3520646018188374&ev=PageView&noscript=1"
-          /></noscript>
-      {/* <!-- End Meta Pixel Code --> */}
+          />
+        </noscript>
+        {/* <!-- End Meta Pixel Code --> */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* <!-- Google Tag Manager (noscript) --> */}
         <noscript>
-          <iframe 
+          <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-T4M7X33H"
-            height="0" 
-            width="0" 
-            style={{ display: "none", visibility: "hidden"}}
-            ></iframe></noscript>
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         {/* <!-- End Google Tag Manager (noscript) --> */}
         {children}
       </body>
