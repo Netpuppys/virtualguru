@@ -1,6 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,14 +31,13 @@ export default function RootLayout({ children }) {
               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-T4M7X33H');
+              })(window,document,'script','dataLayer','GTM-KTZCKJQB');
             `,
           }}
         />
         {/* <!-- End Google Tag Manager --> */}
 
         {/* <!-- Meta Pixel Code --> */}
-        {/* Meta Pixel */}
         <script
           id="meta-pixel"
           strategy="afterInteractive"
@@ -53,7 +51,7 @@ export default function RootLayout({ children }) {
               t.src=v;s=b.getElementsByTagName(e)[0];
               s.parentNode.insertBefore(t,s)}(window, document,'script',
               'https://connect.facebook.net/en_US/fbevents.js');
-              fbq('init', '3520646018188374');
+              fbq('init', '1306652790954310');
               fbq('track', 'PageView');
             `,
           }}
@@ -63,10 +61,46 @@ export default function RootLayout({ children }) {
             height="1"
             width="1"
             style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=3520646018188374&ev=PageView&noscript=1"
+            src="https://www.facebook.com/tr?id=1306652790954310&ev=PageView&noscript=1"
           />
         </noscript>
         {/* <!-- End Meta Pixel Code --> */}
+        {/* <!-- Clarity --> */}
+        <script
+          id="clarity"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+            (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "qmfks2g8z4")
+            `,
+          }}
+        />
+        {/* <!-- End Clarity --> */}
+        {/* <!-- Google Tag Manager --> */}
+        <script
+          id="gtag-1"
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-N7KWPQMTHT"
+        />
+        <script
+          id="gtag-2"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){
+                dataLayer.push(arguments);
+              }
+              gtag('js', new Date());
+              gtag('config', 'G-N7KWPQMTHT');
+            `,
+          }}
+        />
+        {/* <!-- End Google Tag Manager --> */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -74,7 +108,7 @@ export default function RootLayout({ children }) {
         {/* <!-- Google Tag Manager (noscript) --> */}
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-T4M7X33H"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-KTZCKJQB"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
