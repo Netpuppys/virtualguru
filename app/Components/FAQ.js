@@ -103,9 +103,28 @@ function FAQ() {
             </div>
           </div>
         ))}
-        {/* <button className="flex items-center justify-center gap-2 text-[#FF914D] font-[TTChocolatesMedium] font-black">
-          Read All FAQs <IoIosArrowForward />
-        </button> */}
+        <div className="w-full flex flex-wrap justify-between gap-2 items-center">
+          <button
+            onClick={() => (window.location.href = "/privacy-policy")}
+            className="flex items-center justify-center gap-2 text-[#FF914D] font-[TTChocolatesMedium] font-black"
+          >
+            Privacy Policy
+          </button>
+          <button
+            onClick={() =>
+              (window.location.href = "/learning-terms-and-conditions")
+            }
+            className="flex items-center justify-center gap-2 text-[#FF914D] font-[TTChocolatesMedium] font-black"
+          >
+            Learning Terms and Conditions
+          </button>
+          <button
+            onClick={() => (window.location.href = "/refund_returns")}
+            className="flex items-center justify-center gap-2 text-[#FF914D] font-[TTChocolatesMedium] font-black"
+          >
+            Refund and Returns Policy
+          </button>
+        </div>
       </div>
     </div>
   );

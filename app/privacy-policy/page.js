@@ -1,0 +1,375 @@
+import React from "react";
+
+function PrivacyPolicy() {
+  return (
+    <div className="w-[90%] py-8 md:py-[3%] md:w-[80%] mx-auto text-[clamp(8px,3.6vw,75px)] md:text-[clamp(10px,1vw,75px)]">
+      <h2>PRIVACY POLICY</h2>
+      <br />
+      <h4>HERE IS THE ALL DETAILS OF PERSONAL INFORMATION</h4>
+      <br />
+      The terms “We” / “Us” / “Our”/ “Company” individually and collectively
+      refer to Virtual Guru Online Learning India and the terms “You” / “Your” /
+      “Yourself” refer to the Users.
+      <br />
+      <br />
+      This page informs you of our policies regarding the collection, use, and
+      disclosure of personal data when you use our Service and the choices you
+      have associated with that data.
+      <br />
+      <br />
+      We use your data to provide and improve the Service. By using the Service,
+      you agree to the collection and use of information in accordance with this
+      policy. Unless otherwise defined in this Privacy Policy, terms used in
+      this Privacy Policy have the same meanings as in our Terms and Conditions,
+      accessible from a different clause of Terms and Conditions which had been
+      mentioned in our website.
+      <br />
+      <br />
+      This Privacy Policy is an electronic record in the form of an electronic
+      contract formed under the Information Technology Act, 2000 and the rules
+      made thereunder and the amended provisions pertaining to electronic
+      documents / records in various statutes as amended by the Information
+      Technology Act, 2000. This Privacy Policy does not require any physical,
+      electronic or digital signature. This Privacy Policy is a legally binding
+      document between you and Virtual Guru Online Learning India. The terms of
+      this Privacy Policy will be effective upon your acceptance of the same
+      (directly or indirectly in electronic form, by clicking on the I accept
+      tab or by use of the website or by other means) and will govern the
+      relationship between you and Virtual Guru Online Learning India for your
+      use of the website “Website” (defined below).
+      <br />
+      <br />
+      This document is published and shall be construed in accordance with the
+      provisions of the Information Technology (reasonable security practices
+      and procedures and sensitive personal data of information) rules, 2011
+      under
+      <br />
+      <br />
+      Information Technology Act, 2000; that require publishing of the Privacy
+      Policy for collection, use, storage and transfer of sensitive personal
+      data or information.
+      <br />
+      <br />
+      Please read this Privacy Policy carefully by using the Website, you
+      indicate that you uderstand, agree and consent to this Privacy Policy. If
+      you do not agree with the terms of this Privacy Policy, please do not use
+      this Website.
+      <br />
+      <br />
+      By providing us your Information or by making use of the facilities
+      provided by the Website, You hereby consent to the collection, storage,
+      processing and transfer of any or all of Your Personal Information and
+      Non-Personal Information by us as specified under this Privacy Policy. You
+      further agree that such collection, use, storage and transfer of Your
+      Information shall not cause any loss or wrongful gain to you or any other
+      person.
+      <br />
+      <br />
+      <h4>PERSONAL INFORMATION</h4>
+      <br />
+      <h4>HERE IS THE ALL DETAILS OF PERSONAL INFORMATION</h4>
+      <br />
+      Personal Data means data about a living individual who can be identified
+      from those data (or from those and other information either in our
+      possession or likely to come into our possession).
+      <br />
+      <br />
+      To avail certain services on our Websites, users are required to provide
+      certain information for the registration process namely: – a) Your name,
+      b) Email address, c) Sex, d) age, e) PIN code, f) credit card or debit
+      card details g) medical records and history h) sexual orientation, i)
+      biometric information, j) password etc., and / or your occupation,
+      interests, and the like. The Information as supplied by the users enables
+      us to improve our sites and provide you the most user-friendly experience.
+      <br />
+      <br />
+      All required information is service dependent and we may use the above
+      said user information to, maintain, protect, and improve its services
+      (including advertising services) and for developing new services
+      <br />
+      <br />
+      Such information will not be considered as sensitive if it is freely
+      available and accessible in the public domain or is furnished under the
+      Right to Information Act, 2005 or any other law for the time being in
+      force.
+      <br />
+      <br />
+      <h4>USAGE DATA</h4>
+      <br />
+      Usage Data is data collected automatically either generated by the use of
+      the Service or from the Service infrastructure itself (for example, the
+      duration of a page visit).
+      <br />
+      <br />
+      We may also collect information how the Service is accessed and used
+      (“Usage Data”). This Usage Data may include information such as your
+      computer’s Internet Protocol address (e.g. IP address), browser type,
+      browser version, the pages of our Service that you visit, the time and
+      date of your visit, the time spent on those pages, which ads you have seen
+      or clicked on, unique device identifiers and other diagnostic data. We may
+      be able to determine from an IP address a user’s Internet Service Provider
+      and the geographic location of his or her point of connectivity.
+      <br />
+      <br />
+      <h4>COOKIES</h4>
+      <br />
+      <h4>
+        COOKIES ARE SMALL PIECES OF DATA STORED ON YOUR DEVICE (COMPUTER OR
+        MOBILE DEVICE).
+      </h4>
+      <br />
+      To improve the responsiveness of the sites for our users, we may use
+      “cookies”, or similar electronic tools to collect information to assign
+      each visitor a unique, random number as a User Identification (User ID) to
+      understand the user’s individual interests using the Identified Computer.
+      Unless you voluntarily identify yourself (through registration, for
+      example), we will have no way of knowing who you are, even if we assign a
+      cookie to your computer. The only personal information a cookie can
+      contain is information you supply (an example of this is when you ask for
+      our Personalised Horoscope). A cookie cannot read data off your hard
+      drive. Our advertisers may also assign their own cookies to your browser
+      (if you click on their ads), a process that we do not control.
+      <br />
+      <br />
+      Our web servers automatically collect limited information about your
+      computer’s connection to the Internet, including your IP address, when you
+      visit our site. (Your IP address is a number that lets computers attached
+      to the Internet know where to send you data — such as the web pages you
+      view.) Your IP address does not identify you personally. We use this
+      information to deliver our web pages to you upon request, to tailor our
+      site to the interests of our users, to measure traffic within our site and
+      let advertisers know the geographic locations from where our visitors
+      come.
+      <br />
+      <br />
+      <h4>DATA CONTROLLER</h4>
+      <br />
+      Data Controller means the natural or legal person who (either alone or
+      jointly or in common with other persons) determines the purposes for which
+      and the manner in which any personal information are, or are to be,
+      processed.
+      <br />
+      <br />
+      For the purpose of this Privacy Policy, we are a Data Controller of your
+      Personal Data.
+      <br />
+      <br />
+      <h4>DATA PROCESSORS (OR SERVICE PROVIDERS)</h4>
+      <br />
+      Data Processor (or Service Provider) means any natural or legal person who
+      processes the data on behalf of the Data Controller.
+      <br />
+      <br />
+      We may use the services of various Service Providers in order to process
+      your data more effectively.
+      <br />
+      <br />
+      <h4>DATA SUBJECT (OR USER)</h4>
+      <br />
+      Data Subject is any living individual who is using our Service and is the
+      subject of Personal Data.
+      <br />
+      <br />
+      <h4>INFORMATION COLLECTION AND USE</h4>
+      <br />
+      Data Subject is any living individual who is using our Service and is the
+      subject of Personal Data.
+      <br />
+      <br />
+      <h4>PUBLIC CONTENT</h4>
+      <br />
+      The information that you contribute through the Service is intended for
+      public consumption, including your reviews, interests, follows,
+      transcripts, lists, and account profile. We may display this information
+      through the Service, share it with businesses, and further distribute it
+      to a wider audience through third party sites and services.
+      <br />
+      <br />
+      <h4>USE OF DATA</h4>
+      <br />
+      We do not sell your personal data – such as your name and contact
+      information – to third parties to use for their own marketing purposes.
+      <br />
+      <br />
+      Virtual Guru Online Learning India uses the collected data for various
+      purposes:
+      <br />
+      <br />
+      <ol className="list-decimal list-inside">
+        <li>To provide and maintain our Service</li>
+        <li>To notify you about changes to our Service</li>
+        <li>
+          To allow you to participate in interactive features of our Service
+          when you choose to do so
+        </li>
+        <li>To provide customer support</li>
+        <li>
+          To gather analysis or valuable information so that we can improve our
+          Service
+        </li>
+        <li>To perform statistical analysis of the use of our Services</li>
+        <li>To monitor the usage of our Service</li>
+        <li>To detect, prevent and address technical issues</li>
+        <li>
+          To send you updates (like class start dates or new class
+          notifications), recommendations, based on the your interests and
+          follows as well as general information, unless you have opted not to
+          receive such information
+        </li>
+        <li>To personalized the Service</li>
+      </ol>
+      <br />
+      <h4>RETENTION OF DATA</h4>
+      <br />
+      Virtual Guru Online Learning India will retain your Personal Data only for
+      as long as is necessary for the purposes set out in this Privacy Policy.
+      We will retain and use your Personal Data to the extent necessary to
+      comply with our legal obligations (for example, if we are required to
+      retain your data to comply with applicable laws), resolve disputes, and
+      enforce our legal agreements and policies.
+      <br />
+      <br />
+      Virtual Guru Online Learning India will also retain Usage Data for
+      internal analysis purposes. Usage Data is generally retained for a shorter
+      period of time, except when this data is used to strengthen the security
+      or to improve the functionality of our Service, or we are legally
+      obligated to retain this data for longer time periods.
+      <br />
+      <br />
+      <h4>TRANSFER OF DATA</h4>
+      <br />
+      Your information, including Personal Data, may be transferred to — and
+      maintained on — computers located outside of your state, province or other
+      governmental jurisdiction where the data protection laws may differ than
+      those from your jurisdiction.
+      <br />
+      <br />
+      Your consent to this Privacy Policy followed by your submission of such
+      information represents your agreement to that transfer.
+      <br />
+      <br />
+      Virtual Guru Online Learning India will take all steps reasonably
+      necessary to ensure that your data is treated securely and in accordance
+      with this Privacy Policy and no transfer of your Personal Data will take
+      place to an organization or a state unless there are adequate controls in
+      place including the security of your data and other personal information.
+      <br />
+      <br />
+      <h4>DISCLOSURE FOR LAW ENFORCEMENT</h4>
+      <br />
+      Under certain circumstances, Virtual Guru Online Learning India may be
+      required to disclose your Personal Data if required to do so by law or in
+      response to valid requests by public authorities (e.g. a court or a
+      government agency).
+      <br />
+      <br />
+      <h4>LEGAL REQUIREMENTS</h4>
+      <br />
+      Virtual Guru Online Learning India may disclose your Personal Data in the
+      good faith belief that such action is necessary to:
+      <br />
+      <br />
+      <ol className="list-decimal list-inside">
+        <li>To comply with a legal obligation</li>
+        <li>
+          To protect and defend the rights or property of Virtual Guru Online
+          Learning India
+        </li>
+        <li>
+          To prevent or investigate possible wrongdoing in connection with the
+          Service
+        </li>
+        <li>
+          To protect the personal safety of users of the Service or the public
+        </li>
+        <li>To protect against legal liability</li>
+      </ol>
+      <br />
+      <br />
+      <h4>SECURITY OF DATA</h4>
+      <br />
+      The security of your data is important to us, but remember that no method
+      of transmission over the Internet, or method of electronic storage is 100%
+      secure. While we strive to use commercially acceptable means to protect
+      your Personal Data, we cannot guarantee its absolute security.
+      <br />
+      <br />
+      <h4>LINKS TO OTHER SITES</h4>
+      <br />
+      Our policy discloses the privacy practices for our own web site only. Our
+      site provides links to other websites also that are beyond our control. We
+      shall in no way be responsible in way for your use of such sites.We have
+      no control over and assume no responsibility for the content, privacy
+      policies or practices of any third party sites or services.
+      <br />
+      <br />
+      <h4>CHANGES TO THIS PRIVACY POLICY</h4>
+      <br />
+      We may update our Privacy Policy from time to time. We will notify you of
+      any changes by posting the new Privacy Policy on this page.
+      <br />
+      <br />
+      We will let you know via email and/or a prominent notice on our Service,
+      prior to the change becoming effective and update the “effective date” at
+      the top of this Privacy Policy.
+      <br />
+      <br />
+      You are advised to review this Privacy Policy periodically for any
+      changes. Changes to this Privacy Policy are effective when they are posted
+      on this page.
+      <br />
+      <br />
+      <h4>INFORMATION SECURITY</h4>
+      <br />
+      We take appropriate security measures to protect against unauthorized
+      access to or unauthorized alteration, disclosure or destruction of data.
+      These include internal reviews of our data collection, storage and
+      processing practices and security measures, including appropriate
+      encryption and physical security measures to guard against unauthorized
+      access to systems where we store personal data.
+      <br />
+      <br />
+      All information gathered on our Website is securely stored within our
+      controlled database. The database is stored on servers secured behind a
+      firewall; access to the servers is password-protected and is strictly
+      limited. However, as effective as our security measures are, no security
+      system is impenetrable. We cannot guarantee the security of our database,
+      nor can we guarantee that information you supply will not be intercepted
+      while being transmitted to us over the Internet. And, of course, any
+      information you include in a posting to the discussion areas is available
+      to anyone with Internet access.
+      <br />
+      <br />
+      However, the internet is an ever-evolving medium. We may change our
+      Privacy Policy from time to time to incorporate necessary future changes.
+      Of course, our use of any information we gather will always be consistent
+      with the policy under which the information was collected, regardless of
+      what the new policy may be.
+      <br />
+      <br />
+      The visitor, who is expressing interest in our service by filling up our
+      service form, is asked for agreement to be contacted by any available
+      means of communication, such as SMS/email/telephonic calls.
+      <br />
+      <br />
+      <h4>CONTACT US</h4>
+      <br />
+      If you have any questions about this Privacy Policy, please contact us at
+      Virtual Guru Online Learning
+      <br />
+      <br />
+      Flat no 178, Mothinagar, Hyderabad -500018
+      <br />
+      <br />
+      Email:{" "}
+      <a
+        href="mailto:info@virtualguru.online"
+        className="underline text-blue-400"
+      >
+        info@virtualguru.online
+      </a>
+    </div>
+  );
+}
+
+export default PrivacyPolicy;
